@@ -1,0 +1,15 @@
+# F tuşuna basıldığında çalıştırılacak komut
+command: "spawn"
+  
+# Placeholder çıktıları
+ftusu:
+  status_opened: "Açılmış ✓"
+  status_closed: "Kapatılmış ×"
+
+# Başlangıç mesajı
+startup:
+  title: "&6ᴇ&fғ&6ᴛᴜşᴜ"
+  subtitle: "&7ᴍᴀᴅᴇ ʙʏ ᴇxʟɪᴇɴᴛʏ"
+  fade-in: 20
+  stay: 60
+  fade-out: 20 

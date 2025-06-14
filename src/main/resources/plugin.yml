@@ -1,0 +1,14 @@
+name: ExemitFTusu
+version: '${project.version}'
+main: com.exemit.ftusu.ExemitFTusu
+api-version: '1.13'
+authors: [Exemit]
+description: F tuşu özelliği
+depend: [PlaceholderAPI]
+commands:
+  ftusu:
+    description: F tuşu özelliğini açıp kapatmanızı sağlar.
+    usage: /<command> [on/off]
+  ftusureload:
+    description: Eklenti ayarlarını yeniden yükle
+    usage: /ftusureload 

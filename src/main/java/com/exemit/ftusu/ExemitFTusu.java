@@ -42,10 +42,8 @@ public class ExemitFTusu extends JavaPlugin implements Listener {
         }
         messages = YamlConfiguration.loadConfiguration(messagesFile);
 
-        // F tuşu data dosyasını yükle
         loadFtusuData();
 
-        // Aktif oyuncuları yedekten yükle
         enabledPlayers = new HashSet<>();
         loadEnabledPlayersFromFile();
 

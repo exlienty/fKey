@@ -37,11 +37,9 @@ public class FTusuPlaceholder extends PlaceholderExpansion {
             return "";
         }
 
-        // Configden değerleri al
         String statusOpened = plugin.getConfig().getString("ftusu.status_opened", "Açılmış ✓");
         String statusClosed = plugin.getConfig().getString("ftusu.status_closed", "Kapatılmış ×");
 
-        // Parametreye göre sonucu döndür
         if (params.equalsIgnoreCase("status")) {
             return plugin.getEnabledPlayers().contains(player.getUniqueId()) ? statusOpened : statusClosed;
         }
